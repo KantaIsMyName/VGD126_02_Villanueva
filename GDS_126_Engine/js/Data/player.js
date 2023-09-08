@@ -29,15 +29,16 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:50, height:80, startX:128, startY:0},
-				{width:112, height:80, startX:128, startY:0},
-				{width:180, height:80, startX:128, startY:0},
-				{width:248, height:80, startX:128, startY:0},
-				{width:312, height:80, startX:128, startY:0},
-				{width:384, height:80, startX:128, startY:0},
-				{width:448, height:80, startX:128, startY:0},
-				{width:512, height:80, startX:128, startY:0},
-				{width:576, height:80, startX:128, startY:0}
+				{width:50, height:80, startX:0, startY:0},
+				{width:50, height:80, startX:58, startY:0},
+				{width:50, height:80, startX:116, startY:0},
+				{width:50, height:80, startX:183, startY:0},
+				{width:50, height:80, startX:249, startY:0},
+				{width:50, height:80, startX:317, startY:0},
+				{width:50, height:80, startX:379, startY:0},
+				{width:50, height:80, startX:442, startY:0},
+				{width:50, height:80, startX:507, startY:0}
+				
 				
 			]
 		},
