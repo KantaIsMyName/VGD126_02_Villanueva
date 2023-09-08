@@ -49,11 +49,12 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0},
-				{width:128, height:128, startX:256, startY:0},
-				{width:128, height:128, startX:384, startY:0},
-				{width:128, height:128, startX:512, startY:0}
+				{width:128, height:128, startX:0, startY:250},
+				{width:128, height:128, startX:59, startY:250},
+				{width:128, height:128, startX:118, startY:250},
+				{width:128, height:128, startX:176, startY:250},
+				{width:128, height:128, startX:235, startY:250},
+				{width:128, height:128, startX:303, startY:250}
 			]
 		},
 		//The jump animation 
@@ -63,7 +64,10 @@ var playerData ={
 			cycle:false,
 			frames:
 			[
-				{width:128, height:128, startX:640, startY:0}
+				{width:128, height:128, startX:0, startY:416},
+				{width:128, height:128, startX:118, startY:416},
+				{width:128, height:128, startX:176, startY:416},
+				{width:128, height:128, startX:235, startY:416}				
 			]
 		},
 		//The crouch animation 
