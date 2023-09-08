@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/bazi.png`
+		src:`images/spritesheets4Jay2023.png`
 	},
 	states:{
 		//The idle animation 
@@ -29,8 +29,15 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:128, startY:0},
-				{width:128, height:128, startX:128, startY:0}
+				{width:50, height:80, startX:128, startY:0},
+				{width:112, height:80, startX:128, startY:0},
+				{width:180, height:80, startX:128, startY:0},
+				{width:248, height:80, startX:128, startY:0},
+				{width:312, height:80, startX:128, startY:0},
+				{width:384, height:80, startX:128, startY:0},
+				{width:448, height:80, startX:128, startY:0},
+				{width:512, height:80, startX:128, startY:0},
+				{width:576, height:80, startX:128, startY:0}
 				
 			]
 		},
