@@ -45,7 +45,7 @@ var playerData ={
 		//The walwidth:128, height:128,
 		walk:
 		{
-			fps:1,
+			fps:15,
 			cycle:true,
 			frames:
 			[
@@ -61,7 +61,7 @@ var playerData ={
 		jump:
 		{
 			fps:15,
-			cycle:false,
+			cycle:true,
 			frames:
 			[
 				{width:128, height:128, startX:0, startY:416},
