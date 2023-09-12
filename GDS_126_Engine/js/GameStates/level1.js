@@ -138,7 +138,7 @@ gameStates[`level1`] = function()
 		wiz.canJump = false;
 		wiz.vy = wiz.jumpHeight;
 		wiz.changeState(`jump`)
-		//sounds.play(`splode`,1)
+		sounds.play(`jump`)
 	}
 	shotTimer--;
 	if(shotTimer <=0)
@@ -164,7 +164,7 @@ gameStates[`level1`] = function()
 			bullets[currentBullet].y = wiz.y + 5;
 			bullets[currentBullet].dir = wiz.dir;
 			
-			//sounds.play(`splode`,1)
+			sounds.play(`throw`)
 
 			currentBullet++;
 			if(currentBullet>=bullets.length)
