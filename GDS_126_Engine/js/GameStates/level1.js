@@ -15,6 +15,7 @@ ground.img.src=`images/ground.png`
 
 //A platform
 var plat = new GameObject({width:256, height:64,y:canvas.height-200, color:"green"})
+plat.img.src=`images/.png`
 
 //A level object when it is moved other objects move with it.
 var level = new GameObject({x:0,y:0});
@@ -71,7 +72,7 @@ rbg.img.src=`images/mid ground.png`
 
 //middleground
 var bg = new GameObject({x:level.x,y:level.y, width:canvas.width*4, height:canvas.height})
-bg.img.src=`images/bgfull.png`
+bg.img.src=`images/foreground.png`
 
 /*------------------vvBULLET STUFFvv----------------------*/
 
@@ -237,10 +238,10 @@ gameStates[`level1`] = function()
 	level.x -= offset.x;
 
 	//moves repeating background
-	rbg.x = level.x*.5;
+	rbg.x -= offset.x*.5;
 
 	//moves the middleground
-	bg.x = level.x*.75;
+	bg.x -= offset.x*.75;
 
 	//moves the clouds
 	//clouds.x = level.x*.25;
